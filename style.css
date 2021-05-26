@@ -6,13 +6,14 @@
 :root {
     --fondo: rgb(173, 255, 250, 0.5);
     --figura: #21272c;
+    --titulo: #03DDCF;
     --destacado: #D4F739;
 
 }
 
 h1{
     font-weight: bold;
-    color: rgba(19, 116, 146, 1);
+    color: var(--titulo);
 }
 
 body {
@@ -32,7 +33,7 @@ a {
 }
 
 a:hover {
-    color: rgba(162, 230, 224, 0.75);
+    color: var(--destacado);
 }
 
 
