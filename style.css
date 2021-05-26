@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
-header{
-	background:#A2A2A2;
+
+:root {
+    --fondo: rgb(173, 255, 250, 0.5);
+    --figura: #21272c;
+    --destacado: #3d2e51;
+    --activo: #9786b0;
 }
+
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: var(--fondo);
+    color: var(--figura);
+}
+
+a {
+    font-weight: bold;
+    color: var(--destacado);
+    text-decoration: none;
+
+
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );

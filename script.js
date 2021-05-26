@@ -1,4 +1,4 @@
-Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-11/territorios-electorales.csv", {
+Papa.parse("https://raw.githubusercontent.com/veroyvale-037/dno037-clase-11/main/territorios-electorales.csv", {
     download: true,
     header: true,
     dynamicTyping: true,
