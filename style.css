@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,700&display=swap');
+
 
 :root {
     --fondo: rgb(173, 255, 250, 0.5);
@@ -9,22 +11,30 @@
 }
 
 
-
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: font-family: 'IBM Plex Mono', monospace;
     background: var(--fondo);
     color: var(--figura);
 }
 
+header {
+	color: black;
+}
+
+main {
+
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
 a {
     font-weight: bold;
-    color: var(--destacado);
+    color: #3d2e51;
     text-decoration: none;
+}
 
-
-background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
