@@ -29,6 +29,11 @@ body {
 
 }
 
+footer {
+background: rgb(212,247,57);
+background: radial-gradient(circle, rgba(212,247,57,0.4990371148459384) 0%, rgba(212,247,57,0.5) 100%);
+}
+
 a {
     font-weight: 400;
     color: var(--figura);
@@ -43,6 +48,7 @@ header {
     color: var(--figura);
 }
 
+
 main {
     background: rgba(73, 197, 189, 0.3);
     box-shadow: 0 8px 24px 0 rgba(73, 197, 189, 0.37);
@@ -51,3 +57,4 @@ main {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
