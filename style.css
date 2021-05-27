@@ -23,8 +23,10 @@ p {
 
 body {
     font-family: "IBM Plex Mono", monospace;
-    background: var(--fondo);
+	background: rgb(212,247,57);
+	background: radial-gradient(circle, rgba(212,247,57,0.8) 0%, rgba(173,255,250,0.5) 100%);
     color: var(--figura);
+
 }
 
 a {
@@ -34,7 +36,7 @@ a {
 }
 
 a:hover {
-    color: var(--destacado);
+    color: var(--titulo);
 }
 
 header {
